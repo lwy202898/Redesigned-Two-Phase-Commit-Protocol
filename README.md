@@ -1,4 +1,4 @@
-#Redesigned-Two-Phase-Commit-Protocol
+# Redesigned-Two-Phase-Commit-Protocol
 
 **1.Introduction**
 

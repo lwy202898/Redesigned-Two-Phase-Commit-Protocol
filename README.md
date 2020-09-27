@@ -1,3 +1,5 @@
+#Redesigned-Two-Phase-Commit-Protocol
+
 **1.Introduction**
 
 This project is composed of server and user nodes and a two-phase commit process as well as several other helper classes for better modularization. The main contents are about the communication protocol for two-phase commit between the single sever and other user nodes, then it also implements failure recovery mechanism and message retransmission mechanism.

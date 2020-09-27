@@ -24,7 +24,7 @@ Whenever we send out a message that will change the state of the system:
 
 When a server or a user node reboot, it will check the log to know its recovery mode.
 
-To be more speciﬁc, if there is not a \&lt;id\&gt;.wal ﬁle in the work space, then it starts in the Normal mode. If the there exists a \&lt;id\&gt;.wal file, its content is read into memory and each commit has all its messages sorted by time. One the server side, for each commit id,
+To be more speciﬁc, if there is not a <id>.wal ﬁle in the work space, then it starts in the Normal mode. If the there exists a <id>.wal file, its content is read into memory and each commit has all its messages sorted by time. One the server side, for each commit id,
 
 • if we see a DONE message, then there is nothing we need to do.
 
